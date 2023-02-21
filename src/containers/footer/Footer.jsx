@@ -1,5 +1,4 @@
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
 import './footer.css';
 
 const Footer = () => (
@@ -14,7 +13,10 @@ const Footer = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/9732/9732800.png"
+          alt="chatbot.ai_logo"
+        />
         <p>Cross Street, Tamil Nadu, India, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
@@ -34,12 +36,12 @@ const Footer = () => (
         <h4>Get in touch</h4>
         <p>Cross Street, Tamil Nadu, India</p>
         <p>+91-99552232XX</p>
-        <p>gpt3@info.co</p>
+        <p>chatbot.ai@info.co</p>
       </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2022 GPT-3. All rights reserved.</p>
+      <p>@2023 ChatBot AI. </p>
     </div>
   </div>
 );
