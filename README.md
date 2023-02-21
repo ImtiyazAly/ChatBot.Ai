@@ -1,6 +1,4 @@
-# AI Modern Website
-
-![App Screenshot](src/assets/Modern-Website.jpg)
+# ChatBot.AI Modern Website
 
 A Web app built for artificial intelligence based modern website using ReactJs.
 
