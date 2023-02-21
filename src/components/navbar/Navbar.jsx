@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,7 +9,10 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/9732/9732800.png"
+            alt="Chat AI"
+          />
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
